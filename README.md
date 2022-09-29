@@ -35,6 +35,8 @@ Prerequisites:
 * mysql
 * [cairo](https://www.cairographics.org/download/) (SVG utility)
 
+sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
+
 #### Optional extras:
 
 * memcached
