@@ -35,7 +35,6 @@ Prerequisites:
 * mysql
 * [cairo](https://www.cairographics.org/download/) (SVG utility)
 
-sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
 
 #### Optional extras:
 
@@ -44,6 +43,8 @@ sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
 #### System-specific requirements:
 * OS X: [XCode Command line tools](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/)
 * Ubuntu 12.04 (install packages with apt-get): git, git-core, python-virtualenv, gcc, python-pip, python-devel, libjpeg-turbo, libjpeg-turbo-devel, zlib-devel, mariadb-devel, openldap-devel, cyrus-sasl-devel, swig, libxslt-devel, automake, autoconf, libtool, libffi-devel
+sudo apt-get install python3-dev default-libmysqlclient-dev build-essential
+
 * CentOS 7.x (install packages with yum): git, git-core, python-virtualenv, gcc, python-pip, python-devel, libjpeg-turbo, libjpeg-turbo-devel, zlib-devel, mariadb-devel, openldap-devel, cyrus-sasl-devel, swig, libxslt-devel, automake, autoconf, libtool, libffi-devel
 
 Note: some of these packages would introduce additional security considerations if left installed on a server used in production.
